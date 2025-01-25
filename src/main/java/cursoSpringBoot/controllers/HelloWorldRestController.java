@@ -13,7 +13,8 @@ public class HelloWorldRestController {
     //@GetMapping({"/hello", "/hw", "/hola"})
     @GetMapping("/hello")
     public String helloWorld(){
-        //Comprobar que solo se hace desde el lado del cliente, se imprime en pantalla.
+        //Comprobar que solo se hace desde el lado del cliente, se imprime en pantalla
+        // En este caso de ejecuta primero el print.
         System.out.println("Solicitud ejecutada!");
         //Lo que quiero que este metodo retorne cuando se haga una solicitud http
         //de tipo GET.
