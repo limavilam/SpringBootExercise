@@ -10,7 +10,9 @@ public class HelloWorldRestController {
     //Ruta con la que se va a acceder al metodo para que nos de la respuesta.
     //Ruta haga referencia a lo que nos va a retornar el metodo.
     //Puede tener varias direcciones y funcionar, como:
+
     //@GetMapping({"/hello", "/hw", "/hola"})
+
     @GetMapping("/hello")
     public String helloWorld(){
         //Comprobar que solo se hace desde el lado del cliente, se imprime en pantalla
