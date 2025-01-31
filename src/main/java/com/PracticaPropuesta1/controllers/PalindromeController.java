@@ -40,7 +40,7 @@ public class PalindromeController {
         int length = palindromeWord.length();
         //No necesito hacer toda la iteración sino la mitad
         for (int i = 0; i < length / 2; i++) {
-            //Radar = 5-0-1:4 --> R(0)A(1)D(2)A(3)R(4)
+            //Radar = 5-0-1:4 --> R(0)A(1)D(2)A(3)R(4), por lo tanto está en la posición inicial y final.
             if(palindromeWord.charAt(i) != palindromeWord.charAt(length - i - 1)) {
                 return false;
             }
